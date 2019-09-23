@@ -32,3 +32,5 @@ const testCase = map(words, word => word[0]);
 
 assertArraysEqual(testCase,['g','c','t','m','t']);
 
+module.exports = map;
+

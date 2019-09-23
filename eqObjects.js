@@ -67,6 +67,8 @@ const eqObjects = function(obj1, obj2) {
   }
 };
 
+module.exports = eqObjects;
+
 assertEqual(eqObjects({ a: { z: 1 }, b: 2 }, { a: { z: 1 }, b: 2 }),true) // => true
 assertEqual(eqObjects({ a: { z: 1 }, b: 2,c:{d:{e:0,f:5}} }, { a: { z: 1 }, b: 2,c:{d:{e:0,g:4}} }),true) // => true
 

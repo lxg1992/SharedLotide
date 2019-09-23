@@ -30,3 +30,4 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 assertArraysEqual([1,2,0,-1], takeUntil([1,2,0,-1,3,4], (x) => x > 2));
+module.exports = takeUntil;
