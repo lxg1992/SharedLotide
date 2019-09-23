@@ -38,3 +38,5 @@ const firstNames = [
 const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true });
 
 assertEqual(result1["Jason"], 1);
+
+module.exports = countOnly;

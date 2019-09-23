@@ -54,3 +54,5 @@ let baseArray = [1,2,3,4,5];
 console.log("Final result: ", without(baseArray,[2,4]));
 
 assertArraysEqual(baseArray,[1,2,3,4,5]);
+
+module.exports = without;

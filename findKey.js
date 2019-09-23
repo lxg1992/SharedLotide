@@ -27,3 +27,5 @@ const findKey = function(object, callback) {
 
 assertEqual(findKey(obj, (x) => x.stars === 3),'Akaleri');
 
+module.exports = findKey;
+

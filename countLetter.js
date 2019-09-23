@@ -21,4 +21,6 @@ let countLetters = function(str) {
   console.log(result);
 };
 
+module.exports = countLetters;
+
 countLetters("lmao ok");
