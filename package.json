@@ -1,8 +1,8 @@
 {
-  "name": "duncan-alex-lotide",
+  "name": "@lxg1992/sharedlotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A lodash pseudo-clone for the purpose of learning npm publishing and functional programming by Lighthouse Labs",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/lxg1992/SharedLotide.git"
   },
-  "author": "",
+  "author": "lxg1992",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lxg1992/SharedLotide/issues"
