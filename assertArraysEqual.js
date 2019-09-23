@@ -1,21 +1,13 @@
 const eqArrays = require('./eqArrays.js')
 
-const assertArraysEqual = function(actual, expected) {
-  if (Array.isArray(actual) && Array.isArray(expected) && actual.length === expected.length) {
-    let isComparable = true;
-    for (let i = 0; i < actual.length; i++) {
-      if (actual[i] !== expected[i]) {
-        isComparable = false;
-      }
-    }
-    if (isComparable) {
-      console.log(`Assert succeeded: ${actual} = ${expected}`);
-      
-    } else {
-      console.log(`Assert failed: ${actual} != ${expected}`);
-      
-    }
+const assertEqualArrays = function(array1, array2) {
+
+  if (eqArrays(array1,array2)) {
+    console.log('✅ Assertion Passed : First Array === Second Array');
+  } else {
+    console.log('🛑 Assertion Failed : First Array !== Second Array');
   }
 };
+
 
 module.exports = assertArraysEqual;
