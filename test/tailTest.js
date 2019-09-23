@@ -3,7 +3,7 @@ const assert = require('chai').assert;
 
 describe("#tail", () => {
   it('returns ["lighthouse", "labs"] from array ["hello", "lighthouse", "labs"]', () => {
-    assert.strictEqual(tail([1, 2, 3]), [2,3]);
+    assert.deepEqual(tail(["hello", "lighthouse", "labs"]), ["lighthouse", "labs"]);
   })
 })
 
