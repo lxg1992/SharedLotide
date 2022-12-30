@@ -21,6 +21,6 @@
   "homepage": "https://github.com/lxg1992/SharedLotide#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.0"
+    "mocha": "^10.2.0"
   }
 }
